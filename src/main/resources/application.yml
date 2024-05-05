@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: cdc
+  profiles:
+    active: local
+  data:
+    mongodb:
+      uri: "mongodb://localhost:27017/"
+      database: test
+      password:
+      username:
+database:
+  hostname: localhost
+  port: 5432
+  user: postgres
+  password: root
+  dbname: postgres
+  include:
+    list: test
+collection:
+  include:
+    list: "test.books,test.computers,test.phones"
