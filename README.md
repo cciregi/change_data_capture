@@ -1,4 +1,4 @@
-# CDC(change data capture) pilot code
+# CDC(change data capture) PoC
 
 CDC using Spring Boot with Debezium embedded
 
